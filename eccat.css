@@ -1,0 +1,76 @@
+.containerss{
+    display: flex;
+    
+    background-color: white;
+    justify-content: center;
+    
+    
+}
+.cards{
+    background-color: white;
+    height:330px;
+    margin: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.cards:hover{
+    transform: scale(1.03);
+    transition: all 1s ease;
+    background-color: rgb(7,7,7,0.345);
+    cursor: pointer;
+}
+.img{
+    width: 195px;
+    height: 200px;
+    border-radius: 10px;
+}
+.cards p{
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.cards a{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+   
+    padding: 7px;
+    opacity: 0.7;
+    margin-left: 5px;
+    border-radius: 5px;
+    margin-top: 2px;
+   
+    
+
+}
+.cards a:active{
+    background-color: rgb(7, 129, 129);
+    color: black;
+}
+.cards a:hover{
+      opacity: 0.7;
+      background-color: rgb(69, 69, 203);
+      transform:scale(2.5);
+}
+.cards h2{
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.container1{
+    display: flex;
+}
+.prodcast{
+width: 45px;
+height: 45px;
+display: inline-block;
+border-radius:50%;
+margin-right: 5px;
+
+}
+
+h2{
+    display: block;
+    margin-left: 0%;
+    text-align:start;
+}

@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: blueviolet;
+    justify-content: center;
+   
+}
+.container{
+    width: 97%;
+    height: 1500px;
+    
+    border:1px solid black;
+    background-color: white;
+    margin-left: 5px;
+    margin-top: 15px;
+    justify-content: center;
+   
+   
+}
+.header{
+    width: 100%;
+    display:flex;
+    height: 10%;
+    font-weight: larger;
+    gap:50px;
+    justify-content: space-around;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    height: 60px;
+    margin-top: 10px;
+    
+}
+
+.header .nav ul li:hover{
+   transform: scale(1.09);
+   color: black;
+  
+   transition: all 0.12s ease;
+}
+.nav ul {
+    list-style-type: none;
+  gap: 30px;
+   display: flex;
+   font-weight: bold;
+}
+li a{
+    text-decoration: none;
+}
+li a:hover{
+    color: red;
+}
+.contact .no{
+    text-decoration: none;
+}
+.contact
+{
+  display:flex;
+
+}
+.img{
+    height:50px;
+    width: 100px;
+    margin-top: 5px;
+}
+.login{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.btn{
+    margin-top:10px;
+    padding: 10px 29px;
+    background-color: green;
+    border-radius: 5px;
+    height: 15px;
+}
+#icons{
+    display: flex;
+}
